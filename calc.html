@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc_style.css">
+    <script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+    <input type="text" style="height: 20px; width: 344px;" disabled id="result">
+    <br/>
+    <input type="button" style="width: 80px" class="blankbutton" disabled value="."/>
+    <input type="button" style="width: 80px" class="otherbutton" name="clear" id="clear" onclick="clear1()" value="CE"/>
+    <input type="button" style="width: 80px" class="otherbutton" name="divide" id="divide" onclick="setNumber('÷')" value="÷"/>
+    <input type="button" style="width: 80px" class="blankbutton" disabled value="."/>
+    <br>
+    <input type="button" style="width: 80px" class="button" name="num7" id="no7" onclick="setNumber(7)" value="7"/>
+    <input type="button" style="width: 80px" class="button" name="num8" id="no8" onclick="setNumber(8)" value="8"/>
+    <input type="button" style="width: 80px" class="button" name="num9" id="no9" onclick="setNumber(9)" value="9"/>
+    <input type="button" style="width: 80px" class="otherbutton" name="minus" id="minus" onclick="doCaculate('-')" value="-"/>
+    <br>
+    <input type="button" style="width: 80px" class="button" name="num4" id="no4" onclick="setNumber(4)" value="4"/>
+    <input type="button" style="width: 80px" class="button" name="num5" id="no5" onclick="setNumber(5)" value="5"/>
+    <input type="button" style="width: 80px" class="button" name="num6" id="no6" onclick="setNumber(6)" value="6"/>
+    <input type="button" style="width: 80px" class="otherbutton" name="double" id="double" onclick="doCaculate('x')" value="x"/>
+    <br>
+    <input type="button" style="width: 80px" class="button" name="num1" id="no1" onClick="setNumber(1)" value="1"/>
+    <input type="button" style="width: 80px" class="button" name="num2" id="no2" onclick="setNumber(2)" value="2"/>
+    <input type="button" style="width: 80px" class="button" name="num3" id="no3" onclick="setNumber(3)" value="3"/>
+    <input type="button" style="width: 80px" class="otherbutton" name="plus" id="plus" onclick="doCaculate('+')" value="+"/>
+    <br>
+    <input type="button" style="width: 80px" class="otherbutton" name="percent" id="percent" onclick="doCaculate('%')" value="%"/>
+    <input type="button" style="width: 80px" class="button" name="num0" id="no0" onclick="setNumber(0)" value="0"/>
+    <input type="button" style="width: 80px" class="otherbutton" name="dot" id="dot" onclick="setNumber('.')" value="."/>
+    <input type="button" style="width: 80px" class="otherbutton" name="enqual" id="enqual" onclick="equal()" value="="/>
+</body>
+</html>

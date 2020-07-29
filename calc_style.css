@@ -1,0 +1,43 @@
+.button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 28px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.otherbutton{
+    background-color: gray;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table{
+    border: 1px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+.blankbutton{
+    background-color: gray;
+    border: none;
+    padding: 15px 32px;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
