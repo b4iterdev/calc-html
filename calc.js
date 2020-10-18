@@ -59,6 +59,8 @@ function equal() {
         var split4 = result4.split("÷");
         if (split4.length == 1) {
             alert('Wrong');
+        } else if (Number(split4[1]) == 0) {
+            alert('Cannot divide by zero.');
         } else {
             document.getElementById('result').value = Number(split4[0]) + Number(split4[1]);
         }
